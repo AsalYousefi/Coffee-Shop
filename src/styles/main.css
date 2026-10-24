@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @font-face {
     font-family: "Dana";
@@ -55,8 +56,12 @@
     --font-morabba-medium: "Morabba Medium";
     --font-morabba-bold: "Morabba Bold";
 
+    --tracking-tightest: -6.5%;
+
 }
 
 body {
-    @apply font-dana
+    @apply font-dana;
+    background: url("../assets/headerBgDesktop.png");
+    background-repeat: no-repeat;
 }
