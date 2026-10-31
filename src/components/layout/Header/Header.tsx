@@ -17,9 +17,9 @@ export default function Header() {
             <li className="font-dana-medium text-orange-200">
               <a href="#">صفحه اصلی</a>
             </li>
-            <li>
+            <li className="relative">
               <a href="#">فروشگاه</a>
-              <ul className="hidden">
+              <ul className="absolute top-13 w-52 text-base text-zinc-700 dark:text-white tracking-normal shadow border-t-3 border-orange-300 rounded-2xl space-y-4 px-6 py-5 bg-white dark:bg-zinc-700 child">
                 <li>قهوه ویژه</li>
                 <li>ویژه در سطح جهانی</li>
                 <li>قهوه درجه یک</li>

@@ -60,6 +60,9 @@
 
 }
 
+@custom-variant child (& > *);
+@custom-variant child-hover (& > *:hover);
+
 body {
     @apply font-dana;
     background: url("../assets/headerBgDesktop.png");
